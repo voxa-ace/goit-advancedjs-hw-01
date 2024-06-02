@@ -5,7 +5,6 @@ const STORAGE_KEY = 'feedback-form-state';
 
 const saveFormState = (event) => {
   const formElements = event.currentTarget.elements;
-  debugger;
   const emailValue = formElements.email.value;
   const messageValue = formElements.message.value;
   const formState = {
